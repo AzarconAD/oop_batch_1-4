@@ -1,14 +1,13 @@
+num_list = []
+
 while True:
     try: 
-        num_list = [int(input("Input a number: "))]
-
-        unique_numbers = []
-        for num in num_list:
-            if num_list.count(num) == 1:
-                print("Unique")
-                unique_numbers.append(num)
-                if num_list.count(num) != 1:
-                    print("Duplicate")
+        num = int(input("Input a number: "))
+        if num in num_list:
+            print('Duplicate')
+        else:
+            print("Unique")
+            num_list.append(num)
 
     except:
         ValueError
