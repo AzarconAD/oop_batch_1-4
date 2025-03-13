@@ -6,7 +6,8 @@ while True:
         num_list.append(num)
 
         sum_all = sum(num_list)
-        print(sum_all)  
+        length = len(num_list)
+        print(length)
 
     except:
         ValueError
