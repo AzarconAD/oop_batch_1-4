@@ -10,4 +10,4 @@ for num in num_list:
     if num_list.count(num) != 1:
         duplicated_numbers.append(num)
 
-print(duplicated_numbers)
+print(set(duplicated_numbers))
