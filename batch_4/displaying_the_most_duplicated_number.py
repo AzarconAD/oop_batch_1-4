@@ -1,3 +1,4 @@
+print("(Enter an invalid input to exit.)")
 num_list = []
 
 while True:
