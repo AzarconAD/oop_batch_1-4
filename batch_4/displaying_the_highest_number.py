@@ -6,7 +6,7 @@ while True:
         num_list.append(num)
 
         sorted_list = sorted(num_list)
-        print(sorted_list[0])
+        print(sorted_list[-1])
     except:
         ValueError
         break
