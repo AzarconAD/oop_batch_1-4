@@ -7,7 +7,8 @@ while True:
 
         sum_all = sum(num_list)
         length = len(num_list)
-        print(length)
+        average = sum_all / length
+        print(average)
 
     except:
         ValueError
