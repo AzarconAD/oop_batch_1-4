@@ -7,7 +7,7 @@ for i in range (1,11):
 
 unique_numbers = []
 for num in num_list:
-    if num_list == 1:
+    if num_list.count(num) == 1:
         unique_numbers.append(num)
 
 print(unique_numbers)
