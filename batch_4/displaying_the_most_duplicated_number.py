@@ -20,3 +20,20 @@ if num_list:
 
     most_common_num = max(frequency, key=frequency.get)
     print(f"The most duplicated number is: {most_common_num}")
+
+# better code
+# nums = {}
+# while True:
+#       try:
+#           num = int(input("enter a number: "))
+#           if nums.get(num):
+#              nums[num] += 1
+#           else:
+#              nums[num] = 1
+#       except:
+#           break
+#
+# biggest = max(nums.values())
+# for i in nums.keys():
+#     if nums[i] == biggest:
+#       print(i)

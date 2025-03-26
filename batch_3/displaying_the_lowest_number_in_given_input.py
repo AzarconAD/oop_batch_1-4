@@ -1,6 +1,5 @@
 num_list = []
 
-
 while True:
     try:
         num = int(input("Enter a number: "))
@@ -11,4 +10,3 @@ while True:
     except:
         ValueError
         break
-

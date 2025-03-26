@@ -10,7 +10,6 @@ while True:
             num_list.append(num)
 
     except:
-        ValueError
         print("invalid input!")
         break
     
